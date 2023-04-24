@@ -34,13 +34,12 @@ ul li {
 }
 
 ul img {
-  width: 150px;
-  height: 200px;
+  width: 260px;
   padding: 5px 5px;
 }
 
 
-#imageResults {
+#cardResults {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -64,6 +63,7 @@ header,
 
 .left {
   width: 66.66%;
+  min-width: 330px;
 }
 .right{
   width: 33.33%;
